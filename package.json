@@ -1,0 +1,24 @@
+{
+  "name": "metis-ccip-project",
+  "version": "1.0.0",
+  "description": "This project demonstrates a couple of basic Chainlink CCIP use cases.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-verify": "^2.0.9",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.22.9"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^1.2.0",
+    "@chainlink/contracts-ccip": "^1.4.0",
+    "dotenv": "^16.4.5"
+  }
+}
